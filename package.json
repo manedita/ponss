@@ -1,0 +1,20 @@
+{
+  "name": "puppeteer-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "docker:dev:build": "docker build -t ponss-aggiorna.development:latest -f Dockerfile .",
+    "docker:dev:start": "docker run -it -p 4000:4000 --rm ponss-aggiorna.development:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "puppeteer": "^19.7.2"
+  }
+}
