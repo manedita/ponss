@@ -48,6 +48,7 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
         await sleep(2000)
         console.log('Sono entrato')
         while (true) {
+          /*
           //Salva Revolut
           await page.goto('https://www.ponss.it/referrals/upsert/21')
 
@@ -65,6 +66,8 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
           })
 
           await sleep(2000)
+          */
+
           //Salva Satispay
           await page.goto('https://www.ponss.it/referrals/upsert/2')
 
